@@ -500,7 +500,7 @@
                               que j’avais bu l’iv<rhyme sameAs="#P2_A">resse</rhyme>,</l>
                         <l n="6" met="4/2//3/3" rhyme="B">Et dans l’éclair furtif <caesura/> 
                               de ton œil <metamark function="diaeresis"><abbr>sourïant</abbr><expan>sour<rhyme sameAs="#P2_B">iant</rhyme></expan></metamark>,</l>
-                        <l n="7" met="3/3//4/2" rhyme="B">Quand aux pieds d’<persName ref="#Iacchus"><metamark function="diaeresis"><abbr>Ïacchus</abbr><expan>Iacchus</expan></metamark></persName> <caesura/> 
+                        <l n="7" met="3/3//4/2" rhyme="B">Quand aux pieds d’<metamark function="diaeresis"><abbr>Ïacchus</abbr><persName ref="#Iacchus"><expan>Iacchus</expan></persName></metamark> <caesura/> 
                               on me voyait pr<rhyme sameAs="#P2_B">iant</rhyme>,</l>
                         <l n="8" met="3/3//3/3f" rhyme="A">Car la <persName ref="#Muse">Muse</persName> m’a fait <caesura/> 
                               l’un des fils de la G<rhyme sameAs="#P2_A">rèce</rhyme>.</l>
@@ -758,7 +758,7 @@
                         <l n="1" met="2/2//2/4" rhyme="A">Il est un air <caesura/> 
                              pour qui je donne<rhyme xml:id="P5_A" label="ʁɛ">rais</rhyme></l>                     
                         <l n="2" met="1/3//3/3f" rhyme="B">Tout <persName ref="#Rossini">Rossini</persName>, <caesura/> 
-                             tout <persName ref="#Mozart">Mozart</persName> et tout <persName ref="#Weber"><metamark function="poetic_licence"><abbr>Wèbre</abbr><expan>W<rhyme xml:id="P5_B" label="ɛbʁ">eber</rhyme></expan></metamark></persName> ;</l>
+                           tout <persName ref="#Mozart">Mozart</persName> et tout <metamark function="poetic_licence"><abbr>Wèbre</abbr><expan><persName ref="#Weber">W<rhyme xml:id="P5_B" label="ɛbʁ">eber</rhyme></persName></expan></metamark> ;</l>
                         <l n="3" met="2/2//3/3f" rhyme="B">Un air très-vieux,<caesura/> 
                               languissant et fun<rhyme sameAs="#P5_B">èbre</rhyme>,</l>
                         <l n="4" met="1/3//4/2" rhyme="A">Qui pour moi seul <caesura/> 
