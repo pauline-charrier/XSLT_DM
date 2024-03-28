@@ -236,7 +236,7 @@
                   <persName>Constantin</persName>
                   <note>Constantin Ier, empereur romain du IVème siècle, grand réformateur et converti au christianisme.</note>
                </person>
-               <personGrp xml:id="duc_Normand" role="historical" sex="male" cert="medium" size="2">
+               <personGrp xml:id="duc_normand" role="historical" sex="male" cert="medium" size="2">
                   <persName>Robert Guiscard</persName>
                   <persName>Roger de Hauteville</persName>
                   <note>Chevaliers du XIème siècle issus du duché de Normandie qui jouèrent un rôle important dans la conquête de la Sicile 
@@ -610,7 +610,7 @@
                               du berceau dans la b<rhyme sameAs="#P4_A2">ière</rhyme> ;</l>
                         <l n="6" met="2/4//3/3" rhyme="B">Celle que j’aimai seul <caesura/> 
                               m’aime encor tendre<rhyme sameAs="#P4_B">ment</rhyme> :</l>
-                        <l n="7" met="3/3//3/3" rhyme="B">C’est la mort &tiret; ou <persName corresp="#Jenny_Colon" cert="low">la morte</persName>… <caesura/> 
+                        <l n="7" met="3/3//3/3" rhyme="B">C’est la mort &tiret; ou <persName ref="#Jenny_Colon" cert="low">la morte</persName>… <caesura/> 
                               Ô délice ! ô tour<rhyme sameAs="#P4_B">ment</rhyme> !</l>
                         <l n="8" met="3/3//4/2f" rhyme="A">La rose qu’elle tient, <caesura/> 
                               c’est la <emph rend="italics">Rose trém<rhyme sameAs="#P4_A2">ière</rhyme></emph>.</l>
@@ -690,7 +690,7 @@
                <biblFull>
                   <titleStmt>
                      <title level="m">Petits châteaux de Bohême : prose et poésie</title>
-                     <title level="a">Odelette</title>
+                     <title level="a">Odelettes</title>
                      <author ref="https://www.wikidata.org/wiki/Q191305">
                         <forename>Gérard</forename>
                         <surname>de Nerval</surname>
