@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/ODD_Nerval.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="out/ODD_Nerval.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 
 <!DOCTYPE TEI [
     <!ENTITY tiret "&#8212;">
@@ -176,7 +176,7 @@
             </p>
          </projectDesc>
          <editorialDecl>
-            <p>La présentation typographique originale du texte (incluant les jeux de majuscule et d'italique) ainsi que les choix orthographiques ont été respectés.</p>
+            <p>La présentation typographique originale du texte (incluant les jeux de majuscules et d'italiques) ainsi que les choix orthographiques ont été respectés.</p>
          </editorialDecl>
          <metDecl type="met">
             <p>Le schéma métrique choisi correspond aux coupes internes du vers correspondant au décompte de chaque pied, ceci afin de mettre en évidence les variations 
@@ -203,7 +203,7 @@
                         <country key="ITA"/>
                      </address>
                   </placeName>
-                  <note>Promontoire au Nord-Ouest de la Baie de Naples, ancien lieu de villégiature de l'élite romaine, apprécié pour son panorama. 
+                  <note>Promontoire au Nord-Ouest de la baie de Naples, ancien lieu de villégiature de l'élite romaine, apprécié pour son panorama. 
                      La tradition y place la tombe de Virgile<bibl corresp="#LM"/>.</note>
                </place>
                <place xml:id="Acheron" type="mythical" subtype="river" cert="high">
@@ -229,7 +229,7 @@
                <!-- Index des personnages cités à caractère historique (c'est-à-dire dont l'existence est attestée) -->
                <person xml:id="Biron" role="historical" sex="male" cert="medium">
                   <persName>Charles de Gontaut-Biron</persName>
-                  <note>Maréchal de France au temps des guerres de religion, initialement proche d'Henri IV contre lequel il se retourne finalement. 
+                  <note>Maréchal de France au temps des guerres de Religion, initialement proche d'Henri IV contre lequel il se retourne finalement. 
                         Condamné à mort pour haute trahison en 1602<bibl corresp="#HM"/>.</note>
                </person>
                <person xml:id="Constantin" role="historical" sex="male" cert="high">
@@ -240,7 +240,7 @@
                   <persName>Robert Guiscard</persName>
                   <persName>Roger de Hauteville</persName>
                   <note>Chevaliers du XIème siècle issus du duché de Normandie qui jouèrent un rôle important dans la conquête de la Sicile 
-                        et du sud de l'Italie contre les Byzantins et les musulmans<bibl corresp="#LM"/>.</note>
+                        et du Sud de l'Italie contre les Byzantins et les musulmans<bibl corresp="#LM"/>.</note>
                </personGrp>
                <person xml:id="Jenny_Colon" role="historical" sex="female"> 
                   <persName>Jenny Colon</persName>
@@ -262,7 +262,7 @@
                </person>
                <person xml:id="Prince" role="historical" sex="male" cert="low">
                   <persName>Prince d'Aquitaine</persName>
-                  <note>On pense essentiellement au Edouard de Woodstock, connu sous le surnom de Prince Noir (1330-1376), 
+                  <note>On pense essentiellement à Edouard de Woodstock, connu sous le surnom de Prince Noir (1330-1376), 
                         notamment célèbre pour ses chevauchées meurtrières pendant la guerre de Cent Ans.</note>
                </person>               
                <person xml:id="Rossini" role="historical" sex="male" cert="high">
@@ -451,7 +451,7 @@
                         <l n="7" met="2/4//3/3" rhyme="A">La fleur qui plaisait tant <caesura/> 
                               à mon coeur déso<rhyme sameAs="#P1_A">lé</rhyme>,</l>
                         <l n="8" met="3/3//4/2f" rhyme="B">Et la treille où le pampre <caesura/> 
-                              à la rose s’al<rhyme sameAs="#P1_B">li</rhyme>e.</l>
+                              à la rose s’al<rhyme sameAs="#P1_B">lie</rhyme>.</l>
                      </lg>
 
                      <lg type="tercet" subtype="alexandrins" xml:id="P1_T1" rhyme="CDD">
@@ -596,24 +596,24 @@
 
                      <lg type="quatrain" subtype="alexandrins" xml:id="P4_Q1" rhyme="ABAB">
                         <l n="1" met="4/2//3/3f" rhyme="A">La Treizième revient… <caesura/> 
-                              C’est encor la premi<rhyme xml:id="P4_A1" label="ɛʁ">ère</rhyme> ;</l>
+                           C’est encor la prem<rhyme xml:id="P4_A" label="jɛʁ">ière</rhyme> ;</l>
                         <l n="2" met="2/4//2/4" rhyme="B">Et c’est toujours la seule, <caesura/> 
                               &tiret; ou c’est le seul mo<rhyme xml:id="P4_B" label="mɑ̃">ment</rhyme> :</l>
                         <l n="3" met="4/2//3/3f" rhyme="A">Car es-tu reine, ô toi ! <caesura/> 
-                              la première ou dern<rhyme xml:id="P4_A2" label="jɛʁ">ière</rhyme> ?</l>
+                              la première ou dern<rhyme sameAs="#P4_A" label="jɛʁ">ière</rhyme> ?</l>
                         <l n="4" met="3/3//4/2" rhyme="B">Es-tu roi, toi le seul <caesura/> 
                               ou le dernier a<rhyme sameAs="#P4_B">mant</rhyme> ?…</l>
                      </lg>
 
                      <lg type="quatrain" subtype="alexandrins" xml:id="P4_Q2" rhyme="ABBA">
                         <l n="5" met="2/4//3/3f" rhyme="A">Aimez qui vous aima <caesura/> 
-                              du berceau dans la b<rhyme sameAs="#P4_A2">ière</rhyme> ;</l>
+                              du berceau dans la b<rhyme sameAs="#P4_A">ière</rhyme> ;</l>
                         <l n="6" met="2/4//3/3" rhyme="B">Celle que j’aimai seul <caesura/> 
                               m’aime encor tendre<rhyme sameAs="#P4_B">ment</rhyme> :</l>
                         <l n="7" met="3/3//3/3" rhyme="B">C’est la mort &tiret; ou <persName ref="#Jenny_Colon" cert="low">la morte</persName>… <caesura/> 
                               Ô délice ! ô tour<rhyme sameAs="#P4_B">ment</rhyme> !</l>
                         <l n="8" met="3/3//4/2f" rhyme="A">La rose qu’elle tient, <caesura/> 
-                              c’est la <emph rend="italics">Rose trém<rhyme sameAs="#P4_A2">ière</rhyme></emph>.</l>
+                              c’est la <emph rend="italics">Rose trém<rhyme sameAs="#P4_A">ière</rhyme></emph>.</l>
                      </lg>
 
                      <lg type="tercet" subtype="alexandrins" xml:id="P4_T1" rhyme="CDC">
