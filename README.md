@@ -12,4 +12,6 @@ Le présent repository se compose comme suit :
   - 10 fichiers HTML produits en sortie après application de la transformation
 
 
-*Note* : Pour permettre l'ouverture et la bonne lecture du fichier XML-TEI, il est nécessaire d'activer la prise en charge des caractères spéciaux (symboles de l'alphabet phonétique international).
+*Note 1* : Pour permettre l'ouverture et la bonne lecture du fichier XML-TEI, il est nécessaire d'activer la prise en charge des caractères spéciaux (symboles de l'alphabet phonétique international).
+
+*Note 2* : Du fait de l'utilisation pour l'élaboration de la feuille de style XSLT d'une version d'oXygen ne produisant pas automatiquement une déclaration `<!DOCTYPE>` en en-tête de document pour les fichiers HTML de sortie, j'ai été contrainte de l'insérer manuellement par un `<xsl:text/>` pour chacun des templates servant à générer les fichiers de sortie. Cet ajout est susceptible de produire un document HTML non valide en cas de nouvelle compilation depuis une version d'oXygen plus récente.
