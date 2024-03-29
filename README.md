@@ -1,5 +1,5 @@
 # XSLT_DM | 29 mars 2024
-Dépôt dédié au devoir final du cours de XSLT
+Dépôt dédié au devoir final du cours de XSLT du Master 2 "Technologies numériques appliquées à l'histoire"
 
 ## Edition numérique de cinq poèmes de Gérard de Nerval tirés des _Chimères_ (1856) et des _Odelettes_ (1853).
 
