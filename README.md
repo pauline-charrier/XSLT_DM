@@ -8,7 +8,7 @@ Le présent repository se compose comme suit :
   - un dossier `img` comprenant deux images
   - un dossier `css` comprenant un fichier CSS externe
   - un fichier XML-TEI correspondant à l'encodage source pris en entrée
-  - un feuille de style XSLT définissant les règles de transformations à appliquer
+  - un feuille de style XSLT définissant les règles de transformation à appliquer
   - 10 fichiers HTML produits en sortie après application de la transformation
 
 
