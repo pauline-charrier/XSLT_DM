@@ -1,0 +1,287 @@
+    /* CSS de l'en-tête (non visible) */
+    header {
+    background-color: white; 
+    color: black;
+    text-align: center;
+    }
+    
+    /* CSS des div supérieures présentes sur toutes les pages */
+    div.css_div {
+    background-color: rgba(250, 250, 240, 0.9);
+    border: 2px solid rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+    text-align: justify; 
+    margin-bottom: 8%;
+    } 
+    
+    /* CSS de la barre de navigation */
+    nav {
+    background-color: rgba(255, 187, 130, 0.9); 
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    position: relative; 
+    z-index: 1000; 
+    }                
+    nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    }                
+    nav ul li {
+    display: inline-block; 
+    position: relative; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    }
+    nav ul li a {
+    font-size: 20px; 
+    }
+    nav ul li:hover {
+    background-color: rgba(255, 153, 102, 0.9); 
+    }
+    nav ul li ul {
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: rgba(255, 179, 102, 0.9);
+    min-width: 150px; 
+    }                
+    nav ul li ul li a {
+    font-size: 18px; 
+    }
+    nav ul li:hover ul {
+    display: block; 
+    }
+    nav ul li ul li {
+    display: block; 
+    padding: 10px; 
+    }
+    nav ul li ul li:hover {
+    background-color: rgba(153, 51, 0, 0.9);
+    }
+    nav ul li a:visited {
+    color: #800080;
+    }
+    
+    /* Affichage des liens des div (par défaut, puis une fois visités) */
+    div a {
+    color: #6A5ACD
+    }    
+    div a:visited {
+    color: #B1545E; 
+    }
+    
+    /* CSS des titres */                
+    /* Titre général */
+    h1 { 
+    color: Black;
+    -webkit-text-stroke: 0.3px white;      
+    font-size: 40px;
+    }
+    /* Titres de pages */
+    h2 {
+    text-align: center;
+    }                
+    /* Titres des poèmes */
+    h3 {
+    font-variant-caps: small-caps;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    }
+    /* Titres de rubriques */
+    h4 {
+    text-align: center;
+    }
+    
+    /* Mise en forme du texte */
+    p {
+    text-align: justify;
+    }                
+    .p_centre {
+    text-align: center;
+    }                              
+    #note {
+    text-align: center;
+    font-size: small;
+    }
+    
+    /* Disposition du titre général */
+    .en_tete { 
+    text-align: center; 
+    margin-bottom: 5%; 
+    margin-right: 15%; 
+    margin-left:15%; 
+    margin-top: 5%;
+    }  
+    
+    /* Cadre autour du titre */
+    .boite_titre {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px; 
+    padding: 10px; 
+    }
+    /* Cadre autour du pied de page */
+    .boite_pied {
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: 1px;
+    padding: 10px; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+    
+    /* Pied de page */
+    .footer {
+    color: black;
+    text-align: center;
+    }
+    
+    /* Gestion de l'image sur la page d'accueil */
+    div.conteneur_image {                
+    float: left;
+    width: 50%;
+    }                
+    div.img-container img {
+    max-width: 100%; 
+    height: auto; 
+    }
+    div.conteneur_texte{
+    float: right; 
+    width: 50%;
+    }
+    img.image {
+    max-width: 100%;
+    height: auto;
+    }
+
+    /* Numérotation de la bibliographie */
+    ol.biblio_1 {
+        list-style-type: upper-alpha;
+    }
+    ol.biblio_2 {
+        list-style-type: lower-alpha;
+    }
+    
+    /* Coloration des rimes finales */
+    
+    /* Rime A */    
+    span[data-xml_id="P1_A"],
+    span[data-xml_id="P2_A"],
+    span[data-xml_id="P3_A"],
+    span[data-xml_id="P4_A"],
+    span[data-xml_id="P5_A"]{
+    color: red;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P1_A"],
+    span[data-sameAs="#P2_A"],
+    span[data-sameAs="#P3_A"],
+    span[data-sameAs="#P4_A"],
+    span[data-sameAs="#P5_A"]{
+    color: red;
+    font-weight: bold;
+    }
+    
+    /* Rime B */
+    span[data-xml_id="P1_B"],
+    span[data-xml_id="P2_B"],
+    span[data-xml_id="P3_B"],
+    span[data-xml_id="P4_B"],
+    span[data-xml_id="P5_B"]{
+    color: blue;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P1_B"],
+    span[data-sameAs="#P2_B"],
+    span[data-sameAs="#P3_B"],
+    span[data-sameAs="#P4_B"],
+    span[data-sameAs="#P5_B"]{
+    color: blue;
+    font-weight: bold;
+    } 
+    /* Rime C */
+    span[data-xml_id="P1_C"],
+    span[data-xml_id="P2_C"],
+    span[data-xml_id="P3_C"],
+    span[data-xml_id="P4_C1"],
+    span[data-xml_id="P5_C"]{
+    color: green;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P1_C"],
+    span[data-sameAs="#P2_C"],
+    span[data-sameAs="#P3_C"],
+    span[data-sameAs="#P4_C"],
+    span[data-sameAs="#P5_C"]{
+    color: green;
+    font-weight: bold;
+    }     
+    span[data-xml_id="P4_C2"]{
+        color: darkgreen;
+        font-weight: bold;
+    }
+    span[data-sameAs="#P4_C2"]{
+        color: darkgreen;
+        font-weight: bold;
+    }
+    /* Rime D */
+    span[data-xml_id="P1_D"],
+    span[data-xml_id="P2_D"],
+    span[data-xml_id="P3_D"],
+    span[data-xml_id="P4_D"],
+    span[data-xml_id="P5_D"]{
+    color: rgb(225, 0, 255);
+    font-weight: bold;
+    }
+    span[data-sameAs="#P1_D"],
+    span[data-sameAs="#P2_D"],
+    span[data-sameAs="#P3_D"],
+    span[data-sameAs="#P4_D"],
+    span[data-sameAs="#P5_D"]{
+    color:rgb(225, 0, 255);
+    font-weight: bold;
+    }
+    /* Rime E */
+    span[data-xml_id="P1_E"],    
+    span[data-xml_id="P3_E"],    
+    span[data-xml_id="P5_E"]{
+    color: orange;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P1_E"],
+    span[data-sameAs="#P3_E"],
+    span[data-sameAs="#P5_E"]{
+    color:orange;
+    font-weight: bold;
+    }
+    /* Rime F */   
+    span[data-xml_id="P3_F"],    
+    span[data-xml_id="P5_F"]{
+    color: turquoise;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P3_F"],
+    span[data-sameAs="#P5_F"]{
+    color:turquoise;
+    font-weight: bold;
+    }
+    /* Rime G */
+    span[data-xml_id="P5_G"]{
+    color: pink;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P5_G"] {
+    color: pink;
+    font-weight: bold;
+    }
+    /* Rime H */
+    span[data-xml_id="P5_H"]{
+    color: brown;
+    font-weight: bold;
+    }
+    span[data-sameAs="#P5_H"] {
+    color: brown;
+    font-weight: bold;
+    }
